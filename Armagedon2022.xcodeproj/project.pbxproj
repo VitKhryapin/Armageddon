@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB7038F52817EC1500B8B8C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7038F42817EC1500B8B8C1 /* AppDelegate.swift */; };
+		FB7038F72817EC1500B8B8C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7038F62817EC1500B8B8C1 /* SceneDelegate.swift */; };
+		FB7038F92817EC1500B8B8C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7038F82817EC1500B8B8C1 /* ViewController.swift */; };
+		FB7038FC2817EC1500B8B8C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB7038FA2817EC1500B8B8C1 /* Main.storyboard */; };
+		FB7038FE2817EC1600B8B8C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB7038FD2817EC1600B8B8C1 /* Assets.xcassets */; };
+		FB7039012817EC1600B8B8C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB7038FF2817EC1600B8B8C1 /* LaunchScreen.storyboard */; };
+		FB70390C2817EC1600B8B8C1 /* Armagedon2022Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB70390B2817EC1600B8B8C1 /* Armagedon2022Tests.swift */; };
+		FB7039172817EC1600B8B8C1 /* Armagedon2022UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7039162817EC1600B8B8C1 /* Armagedon2022UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB7039082817EC1600B8B8C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB7038E92817EC1500B8B8C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB7038F02817EC1500B8B8C1;
+			remoteInfo = Armagedon2022;
+		};
+		FB7039132817EC1600B8B8C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB7038E92817EC1500B8B8C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB7038F02817EC1500B8B8C1;
+			remoteInfo = Armagedon2022;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB7038F12817EC1500B8B8C1 /* Armagedon2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Armagedon2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7038F42817EC1500B8B8C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB7038F62817EC1500B8B8C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FB7038F82817EC1500B8B8C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB7038FB2817EC1500B8B8C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB7038FD2817EC1600B8B8C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB7039002817EC1600B8B8C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB7039022817EC1600B8B8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB7039072817EC1600B8B8C1 /* Armagedon2022Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Armagedon2022Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB70390B2817EC1600B8B8C1 /* Armagedon2022Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Armagedon2022Tests.swift; sourceTree = "<group>"; };
+		FB70390D2817EC1600B8B8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB7039122817EC1600B8B8C1 /* Armagedon2022UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Armagedon2022UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7039162817EC1600B8B8C1 /* Armagedon2022UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Armagedon2022UITests.swift; sourceTree = "<group>"; };
+		FB7039182817EC1600B8B8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB7038EE2817EC1500B8B8C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7039042817EC1600B8B8C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB70390F2817EC1600B8B8C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB7038E82817EC1500B8B8C1 = {
+			isa = PBXGroup;
+			children = (
+				FB7038F32817EC1500B8B8C1 /* Armagedon2022 */,
+				FB70390A2817EC1600B8B8C1 /* Armagedon2022Tests */,
+				FB7039152817EC1600B8B8C1 /* Armagedon2022UITests */,
+				FB7038F22817EC1500B8B8C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB7038F22817EC1500B8B8C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB7038F12817EC1500B8B8C1 /* Armagedon2022.app */,
+				FB7039072817EC1600B8B8C1 /* Armagedon2022Tests.xctest */,
+				FB7039122817EC1600B8B8C1 /* Armagedon2022UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB7038F32817EC1500B8B8C1 /* Armagedon2022 */ = {
+			isa = PBXGroup;
+			children = (
+				FB7038F42817EC1500B8B8C1 /* AppDelegate.swift */,
+				FB7038F62817EC1500B8B8C1 /* SceneDelegate.swift */,
+				FB7038F82817EC1500B8B8C1 /* ViewController.swift */,
+				FB7038FA2817EC1500B8B8C1 /* Main.storyboard */,
+				FB7038FD2817EC1600B8B8C1 /* Assets.xcassets */,
+				FB7038FF2817EC1600B8B8C1 /* LaunchScreen.storyboard */,
+				FB7039022817EC1600B8B8C1 /* Info.plist */,
+			);
+			path = Armagedon2022;
+			sourceTree = "<group>";
+		};
+		FB70390A2817EC1600B8B8C1 /* Armagedon2022Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FB70390B2817EC1600B8B8C1 /* Armagedon2022Tests.swift */,
+				FB70390D2817EC1600B8B8C1 /* Info.plist */,
+			);
+			path = Armagedon2022Tests;
+			sourceTree = "<group>";
+		};
+		FB7039152817EC1600B8B8C1 /* Armagedon2022UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB7039162817EC1600B8B8C1 /* Armagedon2022UITests.swift */,
+				FB7039182817EC1600B8B8C1 /* Info.plist */,
+			);
+			path = Armagedon2022UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB7038F02817EC1500B8B8C1 /* Armagedon2022 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB70391B2817EC1600B8B8C1 /* Build configuration list for PBXNativeTarget "Armagedon2022" */;
+			buildPhases = (
+				FB7038ED2817EC1500B8B8C1 /* Sources */,
+				FB7038EE2817EC1500B8B8C1 /* Frameworks */,
+				FB7038EF2817EC1500B8B8C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Armagedon2022;
+			productName = Armagedon2022;
+			productReference = FB7038F12817EC1500B8B8C1 /* Armagedon2022.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB7039062817EC1600B8B8C1 /* Armagedon2022Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB70391E2817EC1600B8B8C1 /* Build configuration list for PBXNativeTarget "Armagedon2022Tests" */;
+			buildPhases = (
+				FB7039032817EC1600B8B8C1 /* Sources */,
+				FB7039042817EC1600B8B8C1 /* Frameworks */,
+				FB7039052817EC1600B8B8C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB7039092817EC1600B8B8C1 /* PBXTargetDependency */,
+			);
+			name = Armagedon2022Tests;
+			productName = Armagedon2022Tests;
+			productReference = FB7039072817EC1600B8B8C1 /* Armagedon2022Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB7039112817EC1600B8B8C1 /* Armagedon2022UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB7039212817EC1600B8B8C1 /* Build configuration list for PBXNativeTarget "Armagedon2022UITests" */;
+			buildPhases = (
+				FB70390E2817EC1600B8B8C1 /* Sources */,
+				FB70390F2817EC1600B8B8C1 /* Frameworks */,
+				FB7039102817EC1600B8B8C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB7039142817EC1600B8B8C1 /* PBXTargetDependency */,
+			);
+			name = Armagedon2022UITests;
+			productName = Armagedon2022UITests;
+			productReference = FB7039122817EC1600B8B8C1 /* Armagedon2022UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB7038E92817EC1500B8B8C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FB7038F02817EC1500B8B8C1 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					FB7039062817EC1600B8B8C1 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FB7038F02817EC1500B8B8C1;
+					};
+					FB7039112817EC1600B8B8C1 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FB7038F02817EC1500B8B8C1;
+					};
+				};
+			};
+			buildConfigurationList = FB7038EC2817EC1500B8B8C1 /* Build configuration list for PBXProject "Armagedon2022" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB7038E82817EC1500B8B8C1;
+			productRefGroup = FB7038F22817EC1500B8B8C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB7038F02817EC1500B8B8C1 /* Armagedon2022 */,
+				FB7039062817EC1600B8B8C1 /* Armagedon2022Tests */,
+				FB7039112817EC1600B8B8C1 /* Armagedon2022UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB7038EF2817EC1500B8B8C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7039012817EC1600B8B8C1 /* LaunchScreen.storyboard in Resources */,
+				FB7038FE2817EC1600B8B8C1 /* Assets.xcassets in Resources */,
+				FB7038FC2817EC1500B8B8C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7039052817EC1600B8B8C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7039102817EC1600B8B8C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB7038ED2817EC1500B8B8C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7038F92817EC1500B8B8C1 /* ViewController.swift in Sources */,
+				FB7038F52817EC1500B8B8C1 /* AppDelegate.swift in Sources */,
+				FB7038F72817EC1500B8B8C1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7039032817EC1600B8B8C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB70390C2817EC1600B8B8C1 /* Armagedon2022Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB70390E2817EC1600B8B8C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7039172817EC1600B8B8C1 /* Armagedon2022UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB7039092817EC1600B8B8C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB7038F02817EC1500B8B8C1 /* Armagedon2022 */;
+			targetProxy = FB7039082817EC1600B8B8C1 /* PBXContainerItemProxy */;
+		};
+		FB7039142817EC1600B8B8C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB7038F02817EC1500B8B8C1 /* Armagedon2022 */;
+			targetProxy = FB7039132817EC1600B8B8C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB7038FA2817EC1500B8B8C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB7038FB2817EC1500B8B8C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB7038FF2817EC1600B8B8C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB7039002817EC1600B8B8C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB7039192817EC1600B8B8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB70391A2817EC1600B8B8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB70391C2817EC1600B8B8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DVBMX6UX88;
+				INFOPLIST_FILE = Armagedon2022/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Khryapin-Vitalya.Armagedon2022";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB70391D2817EC1600B8B8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DVBMX6UX88;
+				INFOPLIST_FILE = Armagedon2022/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Khryapin-Vitalya.Armagedon2022";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB70391F2817EC1600B8B8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DVBMX6UX88;
+				INFOPLIST_FILE = Armagedon2022Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Khryapin-Vitalya.Armagedon2022Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Armagedon2022.app/Armagedon2022";
+			};
+			name = Debug;
+		};
+		FB7039202817EC1600B8B8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DVBMX6UX88;
+				INFOPLIST_FILE = Armagedon2022Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Khryapin-Vitalya.Armagedon2022Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Armagedon2022.app/Armagedon2022";
+			};
+			name = Release;
+		};
+		FB7039222817EC1600B8B8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DVBMX6UX88;
+				INFOPLIST_FILE = Armagedon2022UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Khryapin-Vitalya.Armagedon2022UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Armagedon2022;
+			};
+			name = Debug;
+		};
+		FB7039232817EC1600B8B8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DVBMX6UX88;
+				INFOPLIST_FILE = Armagedon2022UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Khryapin-Vitalya.Armagedon2022UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Armagedon2022;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB7038EC2817EC1500B8B8C1 /* Build configuration list for PBXProject "Armagedon2022" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7039192817EC1600B8B8C1 /* Debug */,
+				FB70391A2817EC1600B8B8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB70391B2817EC1600B8B8C1 /* Build configuration list for PBXNativeTarget "Armagedon2022" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB70391C2817EC1600B8B8C1 /* Debug */,
+				FB70391D2817EC1600B8B8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB70391E2817EC1600B8B8C1 /* Build configuration list for PBXNativeTarget "Armagedon2022Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB70391F2817EC1600B8B8C1 /* Debug */,
+				FB7039202817EC1600B8B8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB7039212817EC1600B8B8C1 /* Build configuration list for PBXNativeTarget "Armagedon2022UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7039222817EC1600B8B8C1 /* Debug */,
+				FB7039232817EC1600B8B8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB7038E92817EC1500B8B8C1 /* Project object */;
+}
