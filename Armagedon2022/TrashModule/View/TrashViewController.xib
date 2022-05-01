@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TrashViewController" customModule="Armagedon2022" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="KLx-qh-BPq" id="EVb-Cb-Ld9"/>
+                <outlet property="trashButton" destination="CD3-C1-pDm" id="VUs-9H-FTe"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="KLx-qh-BPq">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CD3-C1-pDm">
+                    <rect key="frame" x="118.5" y="822" width="177" height="30"/>
+                    <color key="backgroundColor" red="0.58012973479999996" green="0.19311000389999999" blue="0.1554979175" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="177" id="EvC-z6-xvD"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="15"/>
+                    <state key="normal" title="Отправить бригаду">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="trashButtonAction:" destination="-1" eventType="touchUpInside" id="Wfp-Xm-HFn"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="KLx-qh-BPq" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="2pr-CH-AOh"/>
+                <constraint firstItem="CD3-C1-pDm" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="6bX-SP-gfz"/>
+                <constraint firstItem="KLx-qh-BPq" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Rr7-Lr-DCs"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="CD3-C1-pDm" secondAttribute="bottom" constant="10" id="sol-aV-xa6"/>
+                <constraint firstItem="KLx-qh-BPq" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="xw8-Xj-gqw"/>
+                <constraint firstAttribute="bottom" secondItem="KLx-qh-BPq" secondAttribute="bottom" id="yeC-LG-Qd4"/>
+            </constraints>
+            <point key="canvasLocation" x="95.652173913043484" y="57.589285714285708"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

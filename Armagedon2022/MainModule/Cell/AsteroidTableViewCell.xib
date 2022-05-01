@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="296" translatesAutoresizingMaskIntoConstraints="NO" id="KGk-i7-Jjw" customClass="AsteroidTableViewCell" customModule="Armagedon2022" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="351" height="296"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="351" height="296"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ceZ-j8-L7E" customClass="CustomButton" customModule="Armagedon2022" customModuleProvider="target">
+                        <rect key="frame" x="214" y="250" width="121" height="30"/>
+                        <color key="backgroundColor" name="AccentColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="5cZ-UW-qzy"/>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="121" id="nOs-0e-NhZ"/>
+                        </constraints>
+                        <state key="normal" title="Уничтожить">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="trashButtonAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="lEF-gr-qeL"/>
+                        </connections>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EPO-b6-VD8" customClass="GradientView" customModule="Armagedon2022" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="351" height="145"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="o4e-mX-vZ2">
+                                <rect key="frame" x="16" y="116" width="283" height="28"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dino" translatesAutoresizingMaskIntoConstraints="NO" id="Uvc-Q2-qYq">
+                                <rect key="frame" x="304" y="120" width="35" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="35" id="5UB-xb-UBr"/>
+                                    <constraint firstAttribute="height" constant="30" id="pnH-9e-fcX"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="asteroid" translatesAutoresizingMaskIntoConstraints="NO" id="8qm-aZ-Fia">
+                                <rect key="frame" x="16" y="-171" width="256" height="256"/>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Uvc-Q2-qYq" secondAttribute="trailing" constant="12" id="2o1-X4-f9z"/>
+                            <constraint firstAttribute="bottom" secondItem="o4e-mX-vZ2" secondAttribute="bottom" constant="1" id="8wy-Fk-eo1"/>
+                            <constraint firstItem="o4e-mX-vZ2" firstAttribute="leading" secondItem="EPO-b6-VD8" secondAttribute="leading" constant="16" id="Ho0-iZ-l1N"/>
+                            <constraint firstItem="Uvc-Q2-qYq" firstAttribute="leading" secondItem="o4e-mX-vZ2" secondAttribute="trailing" constant="5" id="LtJ-Ru-x36"/>
+                            <constraint firstItem="8qm-aZ-Fia" firstAttribute="leading" secondItem="o4e-mX-vZ2" secondAttribute="leading" id="MWy-p6-LtS"/>
+                            <constraint firstAttribute="height" constant="145" id="mfx-Nz-Icb"/>
+                            <constraint firstAttribute="bottom" secondItem="Uvc-Q2-qYq" secondAttribute="bottom" constant="-5" id="nJb-mz-tgG"/>
+                            <constraint firstItem="o4e-mX-vZ2" firstAttribute="top" secondItem="8qm-aZ-Fia" secondAttribute="bottom" constant="31" id="xX8-qR-KEa"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Диаметр:  м" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="csH-vF-S5p">
+                        <rect key="frame" x="16" y="167" width="319" height="19"/>
+                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="на расстояние  км " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kfv-pe-8sE">
+                        <rect key="frame" x="16" y="221" width="319" height="19"/>
+                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="оценка" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000000000000004" translatesAutoresizingMaskIntoConstraints="NO" id="JZd-p2-tPn">
+                        <rect key="frame" x="84" y="256" width="117" height="18.5"/>
+                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Подлетает " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YMS-wp-O9Q">
+                        <rect key="frame" x="16" y="194" width="319" height="19"/>
+                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Оценка:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000000000000004" translatesAutoresizingMaskIntoConstraints="NO" id="Kmp-Qo-Lwb">
+                        <rect key="frame" x="16" y="255.5" width="68" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="68" id="Tv0-KJ-0O7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="ceZ-j8-L7E" secondAttribute="bottom" constant="16" id="29h-EO-gOp"/>
+                    <constraint firstItem="JZd-p2-tPn" firstAttribute="top" secondItem="Kfv-pe-8sE" secondAttribute="bottom" constant="16" id="4fq-L1-vsS"/>
+                    <constraint firstAttribute="trailing" secondItem="ceZ-j8-L7E" secondAttribute="trailing" constant="16" id="7CX-2v-N3p"/>
+                    <constraint firstItem="Kfv-pe-8sE" firstAttribute="top" secondItem="YMS-wp-O9Q" secondAttribute="bottom" constant="8" id="7Ln-U5-Vvx"/>
+                    <constraint firstItem="Kmp-Qo-Lwb" firstAttribute="centerY" secondItem="ceZ-j8-L7E" secondAttribute="centerY" id="CjM-4R-8jS"/>
+                    <constraint firstItem="ceZ-j8-L7E" firstAttribute="leading" secondItem="JZd-p2-tPn" secondAttribute="trailing" constant="13" id="Cli-0a-eg6"/>
+                    <constraint firstItem="YMS-wp-O9Q" firstAttribute="trailing" secondItem="Kfv-pe-8sE" secondAttribute="trailing" id="DK0-tv-PCy"/>
+                    <constraint firstItem="JZd-p2-tPn" firstAttribute="leading" secondItem="Kmp-Qo-Lwb" secondAttribute="trailing" id="E1k-vN-uPj"/>
+                    <constraint firstItem="csH-vF-S5p" firstAttribute="leading" secondItem="YMS-wp-O9Q" secondAttribute="leading" id="L8d-1t-maa"/>
+                    <constraint firstItem="Kmp-Qo-Lwb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="YTZ-Yb-O8H"/>
+                    <constraint firstItem="YMS-wp-O9Q" firstAttribute="top" secondItem="csH-vF-S5p" secondAttribute="bottom" constant="8" id="dyg-UG-NLt"/>
+                    <constraint firstItem="Kfv-pe-8sE" firstAttribute="leading" secondItem="Kmp-Qo-Lwb" secondAttribute="leading" id="emO-BR-imo"/>
+                    <constraint firstItem="JZd-p2-tPn" firstAttribute="centerY" secondItem="ceZ-j8-L7E" secondAttribute="centerY" id="nbs-My-wGx"/>
+                    <constraint firstAttribute="trailing" secondItem="EPO-b6-VD8" secondAttribute="trailing" id="nyE-sb-Neu"/>
+                    <constraint firstItem="EPO-b6-VD8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="pVe-Jw-kkR"/>
+                    <constraint firstItem="YMS-wp-O9Q" firstAttribute="leading" secondItem="Kfv-pe-8sE" secondAttribute="leading" id="w9f-mu-aX3"/>
+                    <constraint firstItem="Kfv-pe-8sE" firstAttribute="trailing" secondItem="ceZ-j8-L7E" secondAttribute="trailing" id="xY1-cz-cN8"/>
+                    <constraint firstItem="EPO-b6-VD8" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="yIE-4r-Mwa"/>
+                    <constraint firstItem="csH-vF-S5p" firstAttribute="trailing" secondItem="YMS-wp-O9Q" secondAttribute="trailing" id="ygt-Mu-XKY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="closeApproachDateLabel" destination="YMS-wp-O9Q" id="iCx-Lj-38t"/>
+                <outlet property="diametrLabel" destination="csH-vF-S5p" id="w3h-03-l9V"/>
+                <outlet property="gradientView" destination="EPO-b6-VD8" id="6CU-Ef-ICb"/>
+                <outlet property="imageAsteroids" destination="8qm-aZ-Fia" id="Wbl-E0-hNW"/>
+                <outlet property="isPotentiallyHazardousAsteroidLabel" destination="JZd-p2-tPn" id="ssr-f2-Iw0"/>
+                <outlet property="missDistanceLabel" destination="Kfv-pe-8sE" id="II6-Ny-pPA"/>
+                <outlet property="nameLabel" destination="o4e-mX-vZ2" id="qDx-1Q-6Sh"/>
+                <outlet property="trashButton" destination="ceZ-j8-L7E" id="VMW-SB-XcO"/>
+            </connections>
+            <point key="canvasLocation" x="41.304347826086961" y="30.803571428571427"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="asteroid" width="256" height="256"/>
+        <image name="dino" width="256" height="256"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
