@@ -30,7 +30,7 @@
 		FB70394D281821BF00B8B8C1 /* FilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB70394B281821BF00B8B8C1 /* FilterViewController.xib */; };
 		FB70394F281821EE00B8B8C1 /* FilterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB70394E281821EE00B8B8C1 /* FilterPresenter.swift */; };
 		FB7039532818311600B8B8C1 /* UnitsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7039512818311600B8B8C1 /* UnitsCell.swift */; };
-		FB7039542818311600B8B8C1 /* UnitsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB7039522818311600B8B8C1 /* UnitsCell.xib */; };
+		FB7039542818311600B8B8C1 /* UnitsCelll.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB7039522818311600B8B8C1 /* UnitsCelll.xib */; };
 		FB7039572818320B00B8B8C1 /* ImportanceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7039552818320B00B8B8C1 /* ImportanceCell.swift */; };
 		FB7039582818320B00B8B8C1 /* ImportanceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB7039562818320B00B8B8C1 /* ImportanceCell.xib */; };
 		FB70395A281862AF00B8B8C1 /* Asteroid.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB703959281862AF00B8B8C1 /* Asteroid.swift */; };
@@ -97,7 +97,7 @@
 		FB70394B281821BF00B8B8C1 /* FilterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterViewController.xib; sourceTree = "<group>"; };
 		FB70394E281821EE00B8B8C1 /* FilterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPresenter.swift; sourceTree = "<group>"; };
 		FB7039512818311600B8B8C1 /* UnitsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitsCell.swift; sourceTree = "<group>"; };
-		FB7039522818311600B8B8C1 /* UnitsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UnitsCell.xib; sourceTree = "<group>"; };
+		FB7039522818311600B8B8C1 /* UnitsCelll.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UnitsCelll.xib; sourceTree = "<group>"; };
 		FB7039552818320B00B8B8C1 /* ImportanceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportanceCell.swift; sourceTree = "<group>"; };
 		FB7039562818320B00B8B8C1 /* ImportanceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImportanceCell.xib; sourceTree = "<group>"; };
 		FB703959281862AF00B8B8C1 /* Asteroid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asteroid.swift; sourceTree = "<group>"; };
@@ -317,7 +317,7 @@
 			isa = PBXGroup;
 			children = (
 				FB7039512818311600B8B8C1 /* UnitsCell.swift */,
-				FB7039522818311600B8B8C1 /* UnitsCell.xib */,
+				FB7039522818311600B8B8C1 /* UnitsCelll.xib */,
 				FB7039552818320B00B8B8C1 /* ImportanceCell.swift */,
 				FB7039562818320B00B8B8C1 /* ImportanceCell.xib */,
 			);
@@ -468,7 +468,7 @@
 			files = (
 				FB70394D281821BF00B8B8C1 /* FilterViewController.xib in Resources */,
 				FB7039012817EC1600B8B8C1 /* LaunchScreen.storyboard in Resources */,
-				FB7039542818311600B8B8C1 /* UnitsCell.xib in Resources */,
+				FB7039542818311600B8B8C1 /* UnitsCelll.xib in Resources */,
 				FB7038FE2817EC1600B8B8C1 /* Assets.xcassets in Resources */,
 				FBA81CAE281D3AF50054251C /* TrashTableViewCell.xib in Resources */,
 				FB7039582818320B00B8B8C1 /* ImportanceCell.xib in Resources */,
