@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="48" id="KGk-i7-Jjw" customClass="UnitsCell" customModule="Armagedon2022" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="433" height="48"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="433" height="48"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Ед. изм. расстояний" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="SIn-Pe-m3G">
+                        <rect key="frame" x="15" y="13.5" width="293" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="USN-1I-Jyg">
+                        <rect key="frame" x="316" y="8.5" width="113" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="113" id="h73-Gi-2aB"/>
+                        </constraints>
+                        <segments>
+                            <segment title="км"/>
+                            <segment title="л. орб."/>
+                        </segments>
+                        <color key="selectedSegmentTintColor" red="0.59999999999999998" green="0.80000000000000004" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <connections>
+                            <action selector="segmentControlAction:" destination="KGk-i7-Jjw" eventType="valueChanged" id="c7f-nP-Ble"/>
+                        </connections>
+                    </segmentedControl>
+                </subviews>
+                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="USN-1I-Jyg" secondAttribute="bottom" constant="8.5" id="Rj2-5c-Y0W"/>
+                    <constraint firstItem="USN-1I-Jyg" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="gva-nS-hP6"/>
+                    <constraint firstItem="SIn-Pe-m3G" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="iXw-qf-rRP"/>
+                    <constraint firstItem="USN-1I-Jyg" firstAttribute="leading" secondItem="SIn-Pe-m3G" secondAttribute="trailing" constant="8" id="kZr-oQ-9BL"/>
+                    <constraint firstItem="USN-1I-Jyg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8.5" id="nt2-He-ftZ"/>
+                    <constraint firstItem="SIn-Pe-m3G" firstAttribute="centerY" secondItem="USN-1I-Jyg" secondAttribute="centerY" id="pW2-8X-aaX"/>
+                    <constraint firstAttribute="trailing" secondItem="USN-1I-Jyg" secondAttribute="trailing" constant="4" id="w6R-rx-Ute"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="segmentControl" destination="USN-1I-Jyg" id="Bx4-Be-AAw"/>
+            </connections>
+            <point key="canvasLocation" x="139.85507246376812" y="57.589285714285708"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
